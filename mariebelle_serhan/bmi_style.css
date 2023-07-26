@@ -1,0 +1,83 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #e5e5e5, #d9d9d9, #cccccc, #c0c0c0);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007BFF; /* Change the color of the heading */
+  }
+  
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input, select {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect for the background color change */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+  }
+  
+  button:active {
+    background-color: #003d80; /* Change the button color when pressed */
+  }
+  
+  #resultContainer {
+    margin-top: 20px;
+    text-align: center;
+    color: #007BFF; /* Change the color of the result text */
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+#bmi_image {
+    margin-top: 20px;
+    text-align: center;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bmi-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  
